@@ -1,0 +1,3 @@
+This example demonstrates a common issue in TypeScript where the type system doesn't always prevent runtime errors related to object properties.  The `printCoord` function expects an object with `x` and `y` properties.  While TypeScript will ensure that you are passing an object, it won't stop you from passing an object that is missing the necessary properties or includes extra, unexpected ones. This can lead to runtime errors if those properties aren't handled gracefully.
+
+The solution explores ways to improve type safety and handle potential errors more robustly.
